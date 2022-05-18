@@ -1,0 +1,159 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Header Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+html {
+  height: 100vh;
+  overflow-x: hidden;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  background-color: #F0EDEB;
+}
+
+
+/* 2. Typography Styles
+======================================== */
+
+
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+/* 1. Header Styles
+======================================== */
+
+header {
+  width: 100%;
+  height: 56px;
+  border-bottom: 1px solid #716B67;  
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: .7em;
+  font-weight: bold;
+  letter-spacing: .5em;
+  color: black;
+}
+
+.content {
+  /* border: 3px solid red; */
+}
+
+
+.content,
+.desktop-ui,
+.desktop-ui nav,
+.wrapper {
+  height: 100%;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+
+.wrapper img {
+  width: 100%;
+}
+
+/* Nav/Nav-items Styles */
+
+/* Nav-items list Styles */
+
+.nav-item{
+  border-right: 1px solid #89BAD2;
+  padding:0 1.2rem 0 1.2rem;
+  letter-spacing: 2px;
+  font-size: .8em;
+}
+
+nav ul li {
+  padding:0 .725rem 0 .725rem;
+  letter-spacing: 2px;
+  font-size: .8em;
+}
+
+.logo-wrapper {
+  border-right: 1px solid #000;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 0 ;
+  font-size: .9em;
+}
+
+.menu-btn-wrapper {
+  /* padding: 10px; */
+  border-left: 1px solid ;
+}
+
+.menu-btn-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+
+/* Nav-items Anchor Styles */
+.wrapper a {
+  text-decoration: none;
+  font-family: "Raleway", Helvetica, sans-serif;
+  color: black;
+}
+
+.wrapper a:hover {
+  color: #42A5F5;
+}
+
+
+
+
+/* Mobile UI */
+
+.mobile-ui {
+  display: none;
+}
+
+
+
+
+/* 1. Header Styles
+======================================== */
